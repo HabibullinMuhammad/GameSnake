@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>GameSnake build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>25-05-2022 at 19:43.13</u><br />
+Build ended on: <u>25-05-2022 at 19:43.38</u><p />
+<b>-------------- Build: Debug in GameSnake (compiler: GNU GCC Compiler)---------------</b><br />
+mingw32-g++.exe -Wall -fexceptions  -g     -c C:\С++\Хабибуллин\GameSnake\main.cpp -o obj\Debug\main.o<br />
+C:\С++\Хабибуллин\GameSnake\main.cpp: In function 'void drawSnake(Snake)':<br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:20:6: warning: no previous declaration for 'void drawSnake(Snake)' [-Wmissing-declarations]</font><br />
+ void drawSnake(Snake snake)<br />
+      ^<br />
+C:\С++\Хабибуллин\GameSnake\main.cpp: In function 'void drawApple(Apple)':<br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:26:6: warning: no previous declaration for 'void drawApple(Apple)' [-Wmissing-declarations]</font><br />
+ void drawApple(Apple apple)<br />
+      ^<br />
+C:\С++\Хабибуллин\GameSnake\main.cpp: In function 'int main()':<br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:184:36: warning: 'double {anonymous}::TX::random(double, double)' is deprecated (declared at c:\с++\codeblocks\mingw\include\txlib.h:15037) [-Wdeprecated-declarations]</font><br />
+              apple.x=random(50,1150);<br />
+                                    ^<br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:184:36: warning: conversion to 'int' from 'double' may alter its value [-Wconversion]</font><br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:185:35: warning: 'double {anonymous}::TX::random(double, double)' is deprecated (declared at c:\с++\codeblocks\mingw\include\txlib.h:15037) [-Wdeprecated-declarations]</font><br />
+              apple.y=random(50,550);<br />
+                                   ^<br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:185:35: warning: conversion to 'int' from 'double' may alter its value [-Wconversion]</font><br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:50:9: warning: variable 'oldSnakeX' set but not used [-Wunused-but-set-variable]</font><br />
+     int oldSnakeX = 0, oldSnakeY = 0;<br />
+         ^<br />
+<font color="#0000ff">C:\С++\Хабибуллин\GameSnake\main.cpp:50:24: warning: variable 'oldSnakeY' set but not used [-Wunused-but-set-variable]</font><br />
+     int oldSnakeX = 0, oldSnakeY = 0;<br />
+                        ^<br />
+mingw32-g++.exe  -o bin\Debug\GameSnake.exe obj\Debug\main.o     -mwindows<br />
+Output size is 2,17 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minutes, 24 seconds)</font><br />
+<font color="#0000ff">0 errors, 8 warnings (0 minutes, 24 seconds)</font><br />
+</tt>
+</body>
+</html>
